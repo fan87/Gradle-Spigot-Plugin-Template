@@ -6,11 +6,13 @@ import org.bukkit.command.Command
 import org.bukkit.command.CommandSender
 import org.bukkit.plugin.java.JavaPlugin
 import org.example.spigotplugintemplate.commands.CommandManager
+import org.example.spigotplugintemplate.config.ConfigManager
 import org.example.spigotplugintemplate.main.Loader
 import java.util.logging.Level
 
 object SpigotPluginTemplate {
 
+    val plugin = Loader.INSTANCE
     val logger: Logger = LogManager.getFormatterLogger()
 
     fun onDisable() {
@@ -18,6 +20,7 @@ object SpigotPluginTemplate {
     }
 
     fun onEnable() {
+        ConfigManager
         CommandManager
     }
 

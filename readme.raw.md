@@ -5,11 +5,13 @@
 
 > :warning: This template is still in beta! If you have any issue using this template, please let us know!
 
+
+### Info
+Template Maintainer:  fan87<br>Template Developer:  fan87
+
+
 ## Table of Contents
 // INSERT_CHAPTER_TAG
 
-
-
-### Info
-
-Template Maintainer:  fan87<br>Template Developer:  fan87
+## Getting Started
+Run `python3 apply_template.py Your-Plugin-Name`

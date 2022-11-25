@@ -1,0 +1,22 @@
+
+# Server Directory
+run/*
+!run/start.sh
+!run/log4j2.xml
+
+
+# Unwanted IDE / User specific files
+.idea/**
+**.iml
+
+# IntelliJ Build (Shouldn't exist, just in case)
+out/
+
+
+# Gradle Cache
+.gradle
+# Gradle Build
+build/
+
+# BuildTools
+BuildTools/

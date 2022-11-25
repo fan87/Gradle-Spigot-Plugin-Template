@@ -1,0 +1,3 @@
+name: Spigot-Plugin-Template
+main: org.example.spigotplugintemplate.main.Loader
+version: ${version}

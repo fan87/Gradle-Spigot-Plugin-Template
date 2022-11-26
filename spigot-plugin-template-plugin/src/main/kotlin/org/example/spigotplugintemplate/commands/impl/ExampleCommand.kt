@@ -1,9 +1,9 @@
 package org.example.spigotplugintemplate.commands.impl
 
 import org.bukkit.command.CommandSender
-import org.example.spigotplugintemplate.commands.SpigotPluginTemplateCommand
+import org.example.spigotplugintemplate.commands.Command
 
-class ExampleCommand: SpigotPluginTemplateCommand("example") {
+class ExampleCommand: Command("example") {
     override fun execute(sender: CommandSender, alias: String, args: Array<out String>): Boolean {
         sender.sendMessage("Hello, World!")
         return true
